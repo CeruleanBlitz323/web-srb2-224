@@ -1462,7 +1462,7 @@
             console.log(`InstallProgram: Retrieving ${name} (${curVal}/${maxVal})`)
             StatusElement.innerText = `Retrieving ${name.split('/').pop()}...`;
           }
-          ProgressElement.value = percent;
+          ProgressElement.value = 0;
         },
         () => {
           // Finished callback
